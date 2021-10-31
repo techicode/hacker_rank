@@ -31,6 +31,7 @@ function readLine() {
  *  2. STRING path
  */
 
+<<<<<<< HEAD
 /*
     example:
         DD UU DD UD UU UD
@@ -63,6 +64,12 @@ function countingValleys(steps, path) {
 }
 
 console.log(countingValleys(12, 'UDDDUDUU'))
+=======
+function countingValleys(steps, path) {
+    // Write your code here
+
+}
+>>>>>>> origin/main
 
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
